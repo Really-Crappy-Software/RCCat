@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+//   _ __ ___ ___
+//  | '__/ __/ __|
+//  | | | (__\__ \_
+//  |_|  \___|___(_) Software done worse.
+//
 
 int main(int argc, char* argv[]) {
   FILE *bazinga;
