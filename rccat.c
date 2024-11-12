@@ -1,10 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-//   _ __ ___ ___
-//  | '__/ __/ __|
-//  | | | (__\__ \_
-//  |_|  \___|___(_) Software done worse.
-//
 
 int main(int argc, char* argv[]) {
   FILE *bazinga;
@@ -23,6 +18,7 @@ fprintf(bazinga, argv[3]);
     bazinga = fopen(argv[2], "r");
     char myString[10000];
      fgets(myString, 10000, bazinga);
+    printf("%s\n", myString);
   }  else if (strcmp(argv[2], "-h") == 0) {
       printf("SYNTAX: rccat -w/-a/-r/-h FILE TEXT \n -w: Writes to a file (overwrites the text already in that file) \n -a: appends text to a file \n -r: displays the file contents \n -h displays this menu \n if you encounter any bugs please report it on Github.");
   } else {
